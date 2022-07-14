@@ -9,11 +9,11 @@
         "ApplicableVersion": "any",
         "DalamudApiLevel": 6,
         "Punchline": "The Roleplayer's Toolbox Snapping",
-        "DownloadLinkInstall": "https://git.sr.ht/~jkcclemens/plugin_repo/blob/main/unofficial/RoleplayersToolbox/latest.zip",
+        "DownloadLinkInstall": "https://github.com/Kyuwu/rptools/blob/main/snapping.zip",
         "IsHide": false,
         "IsTestingExclusive": false,
-        "DownloadLinkTesting": "https://git.sr.ht/~jkcclemens/plugin_repo/blob/main/unofficial/RoleplayersToolbox/latest.zip",
-        "DownloadLinkUpdate": "https://git.sr.ht/~jkcclemens/plugin_repo/blob/main/unofficial/RoleplayersToolbox/latest.zip",
+        "DownloadLinkTesting": "https://github.com/Kyuwu/rptools/blob/main/snapping.zip",
+        "DownloadLinkUpdate": "https://github.com/Kyuwu/rptools/blob/main/snapping.zip",
         "LastUpdate": "1654547792"
     }
 ]
