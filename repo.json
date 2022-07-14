@@ -9,11 +9,11 @@
         "ApplicableVersion": "any",
         "DalamudApiLevel": 6,
         "Punchline": "The Roleplayer's Toolbox Snapping",
-        "DownloadLinkInstall": "https://github.com/Kyuwu/rptools/releases/download/release2/latest.zip",
+        "DownloadLinkInstall": "https://github.com/Kyuwu/rptools/releases/download/release/latest.zip",
         "IsHide": false,
         "IsTestingExclusive": false,
-        "DownloadLinkTesting": "https://github.com/Kyuwu/rptools/releases/download/release2/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/Kyuwu/rptools/releases/download/release2/latest.zip",
+        "DownloadLinkTesting": "https://github.com/Kyuwu/rptools/releases/download/release/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/Kyuwu/rptools/releases/download/release/latest.zip",
         "LastUpdate": "1654547792"
     }
 ]
