@@ -8,7 +8,7 @@
         "AssemblyVersion": "4.2.0",
         "RepoUrl": "https://github.com/Kyuwu/rptools",
         "ApplicableVersion": "any",
-        "DalamudApiLevel": 6,
+        "DalamudApiLevel": 7,
         "Punchline": "The Roleplayer's Toolbox Snapping",
         "DownloadLinkInstall": "https://github.com/Kyuwu/rptools/releases/download/release6.2/latest6.2.zip",
         "IsHide": false,
