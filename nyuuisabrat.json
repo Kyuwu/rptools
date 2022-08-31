@@ -1,0 +1,20 @@
+
+[
+    {
+        "Author": "Kyuwu",
+        "Name": "The Roleplayer's Toolbox Snapping",
+        "Description": "Snapping",
+        "InternalName": "RoleplayersToolbox",
+        "AssemblyVersion": "4.2.0",
+        "RepoUrl": "https://github.com/Kyuwu/rptools",
+        "ApplicableVersion": "any",
+        "DalamudApiLevel": 6,
+        "Punchline": "The Roleplayer's Toolbox Snapping",
+        "DownloadLinkInstall": "https://github.com/Kyuwu/rptools/releases/download/release6.2/latest6.2.zip",
+        "IsHide": false,
+        "IsTestingExclusive": false,
+        "DownloadLinkTesting": "https://github.com/Kyuwu/rptools/releases/download/release6.2/latest6.2.zip",
+        "DownloadLinkUpdate": "https://github.com/Kyuwu/rptools/releases/download/release6.2/latest6.2.zip",
+        "LastUpdate": "1654547792"
+    }
+]
