@@ -1,6 +1,6 @@
-# The Roleplayer's Toolbox
+# The Roleplayer's Toolbox scuffed edit for experience
 
-## Install
+## credits all go to annaclemens
 
-- Add `https://plugins.annaclemens.io/unofficial` to your custom repositories.
-- Install via `/xlplugins`.
+https://plugins.annaclemens.io/unofficial
+
