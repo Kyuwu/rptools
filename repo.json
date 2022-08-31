@@ -2,18 +2,18 @@
     {
         "Author": "Kyuwu",
         "Name": "The Roleplayer's Toolbox Snapping",
-        "Description": "A collection of useful tools for roleplayers.\n\n- Choose a PF or use the /route command to set a destination and get\n  told the fastest way to navigate to any house.\n- Enable click-to-examine on left or right click.\n- Prevent untargeting or changing your target.\n- Set any emote on your hotbar, such as sleep or object sit.\n- Add the /emoteid command to use any emote by its ID.\n- Disable the /doze emote snap so you can use the sleep emote\n  anywhere.",
+        "Description": "Snapping",
         "InternalName": "RoleplayersToolbox",
-        "AssemblyVersion": "0.3.4",
+        "AssemblyVersion": "4.2.0",
         "RepoUrl": "https://github.com/Kyuwu/rptools",
         "ApplicableVersion": "any",
         "DalamudApiLevel": 6,
         "Punchline": "The Roleplayer's Toolbox Snapping",
-        "DownloadLinkInstall": "https://github.com/Kyuwu/rptools/blob/main/snapping.zip",
+        "DownloadLinkInstall": "https://github.com/Kyuwu/rptools/releases/download/release/latest.zip",
         "IsHide": false,
         "IsTestingExclusive": false,
-        "DownloadLinkTesting": "https://github.com/Kyuwu/rptools/blob/main/snapping.zip",
-        "DownloadLinkUpdate": "https://github.com/Kyuwu/rptools/blob/main/snapping.zip",
+        "DownloadLinkTesting": "https://github.com/Kyuwu/rptools/releases/download/release/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/Kyuwu/rptools/releases/download/release/latest.zip",
         "LastUpdate": "1654547792"
     }
 ]
