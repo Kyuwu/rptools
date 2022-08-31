@@ -6,11 +6,10 @@ using Dalamud.Game.ClientState;
 using Dalamud.Game.ClientState.Objects;
 using Dalamud.Game.Command;
 using Dalamud.Game.Gui;
-using Dalamud.Game.Gui.ContextMenus;
+using Dalamud.ContextMenu;
 using Dalamud.IoC;
 using Dalamud.Plugin;
 using RoleplayersToolbox.Tools;
-using RoleplayersToolbox.Tools.Housing;
 using RoleplayersToolbox.Tools.Targeting;
 using XivCommon;
 using RoleplayersToolbox.Tools.Illegal.Emote;
@@ -37,7 +36,7 @@ namespace RoleplayersToolbox {
         internal CommandManager CommandManager { get; init; } = null!;
         
         [PluginService]
-        internal ContextMenu ContextMenu { get; init; } = null!;
+        internal DalamudContextMenu ContextMenu { get; init; } = null!;
 
         [PluginService]
         internal DataManager DataManager { get; init; } = null!;
@@ -64,7 +63,6 @@ namespace RoleplayersToolbox {
             this.Config = this.Interface.GetPluginConfig() as Configuration ?? new Configuration();
             this.Common = new XivCommonBase(Hooks.PartyFinderListings);
 
-            this.Tools.Add(new HousingTool(this));
             this.Tools.Add(new TargetingTool(this));
 
             this.Tools.Add(new EmoteTool(this));

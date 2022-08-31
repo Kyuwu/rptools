@@ -1,6 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
-        <TargetFramework>net6.0-windows</TargetFramework>
+        <TargetFramework>net6-windows</TargetFramework>
         <Version>4.2.0</Version>
         <LangVersion>latest</LangVersion>
         <Nullable>enable</Nullable>
@@ -53,9 +53,8 @@
         </Reference>
     </ItemGroup>
     <ItemGroup>
-        <PackageReference Include="Dalamud.ContextMenu" Version="1.2.1" />
-        <PackageReference Include="DalamudPackager" Version="2.1.8" />
-        <PackageReference Include="F23.StringSimilarity" Version="5.0.0" />
-        <PackageReference Include="XivCommon" Version="6.0.2" />
+        <PackageReference Include="DalamudPackager" Version="2.1.7"/>
+        <PackageReference Include="F23.StringSimilarity" Version="5.0.0"/>
+        <PackageReference Include="XivCommon" Version="5.0.1-alpha.1"/>
     </ItemGroup>
 </Project>

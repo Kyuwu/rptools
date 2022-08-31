@@ -3,7 +3,6 @@ using System.Linq;
 using System.Runtime.InteropServices;
 using Dalamud.Data;
 using Lumina.Excel.GeneratedSheets;
-using RoleplayersToolbox.Tools.Housing;
 
 namespace RoleplayersToolbox {
     public class Teleport {
@@ -27,19 +26,6 @@ namespace RoleplayersToolbox {
             if (plugin.SigScanner.TryScanText(Signatures.Teleport, out var teleportPtr)) {
                 this._teleport = Marshal.GetDelegateForFunctionPointer<TeleportDelegate>(teleportPtr);
             }
-        }
-
-        internal void TeleportToHousingArea(HousingArea area) {
-            if (this._telepo == IntPtr.Zero || this._teleport == null) {
-                return;
-            }
-
-            var aetheryte = this.Data.GetExcelSheet<Aetheryte>()!.FirstOrDefault(aeth => aeth.IsAetheryte && aeth.Territory.Row == area.CityStateTerritoryType());
-            if (aetheryte == null) {
-                return;
-            }
-
-            this._teleport(this._telepo, aetheryte.RowId, 0);
         }
     }
 }
