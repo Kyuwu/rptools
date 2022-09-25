@@ -6,7 +6,6 @@ using Dalamud.Game.ClientState;
 using Dalamud.Game.ClientState.Objects;
 using Dalamud.Game.Command;
 using Dalamud.Game.Gui;
-using Dalamud.ContextMenu;
 using Dalamud.IoC;
 using Dalamud.Plugin;
 using RoleplayersToolbox.Tools;
@@ -35,8 +34,6 @@ namespace RoleplayersToolbox {
         [PluginService]
         internal CommandManager CommandManager { get; init; } = null!;
         
-        [PluginService]
-        internal DalamudContextMenu ContextMenu { get; init; } = null!;
 
         [PluginService]
         internal DataManager DataManager { get; init; } = null!;

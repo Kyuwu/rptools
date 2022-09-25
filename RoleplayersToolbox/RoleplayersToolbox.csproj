@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
         <TargetFramework>net6.0-windows</TargetFramework>
         <Version>4.2.0</Version>
@@ -29,33 +29,31 @@
     <ItemGroup>
         <Reference Include="Dalamud">
             <HintPath>$(AppData)\XIVLauncher\addon\Hooks\dev\Dalamud.dll</HintPath>
-            <Private>False</Private>
+            <Private>false</Private>
         </Reference>
         <Reference Include="FFXIVClientStructs">
             <HintPath>$(AppData)\XIVLauncher\addon\Hooks\dev\FFXIVClientStructs.dll</HintPath>
-            <Private>False</Private>
+            <Private>false</Private>
         </Reference>
         <Reference Include="ImGui.NET">
             <HintPath>$(AppData)\XIVLauncher\addon\Hooks\dev\ImGui.NET.dll</HintPath>
-            <Private>False</Private>
+            <Private>false</Private>
         </Reference>
         <Reference Include="ImGuiScene">
             <HintPath>$(AppData)\XIVLauncher\addon\Hooks\dev\ImGuiScene.dll</HintPath>
-            <Private>False</Private>
+            <Private>false</Private>
         </Reference>
         <Reference Include="Lumina">
             <HintPath>$(AppData)\XIVLauncher\addon\Hooks\dev\Lumina.dll</HintPath>
-            <Private>False</Private>
+            <Private>false</Private>
         </Reference>
         <Reference Include="Lumina.Excel">
             <HintPath>$(AppData)\XIVLauncher\addon\Hooks\dev\Lumina.Excel.dll</HintPath>
-            <Private>False</Private>
+            <Private>false</Private>
         </Reference>
     </ItemGroup>
     <ItemGroup>
-        <PackageReference Include="Dalamud.ContextMenu" Version="1.2.1" />
         <PackageReference Include="DalamudPackager" Version="2.1.8" />
-        <PackageReference Include="F23.StringSimilarity" Version="5.0.0" />
         <PackageReference Include="XivCommon" Version="6.0.2" />
     </ItemGroup>
 </Project>
